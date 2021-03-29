@@ -121,9 +121,7 @@ void GuiCamArray::PopulateCams(QStringList& oCameraNames)
     {
         std::unique_ptr<GuiCamera> p_camera( new_cam_ptr(device_info_list[i], i, nullptr));
         QStringList split_string = p_camera->FirmwareLevel().split(";");
-        
-        std::cerr << i << "\n";
-        std::cerr << split_string << "\n";
+ 
         
         if (p_camera->IsHardwareTriggered())
         {
