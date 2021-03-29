@@ -123,6 +123,7 @@ void GuiCamArray::PopulateCams(QStringList& oCameraNames)
         QStringList split_string = p_camera->FirmwareLevel().split(";");
         
         std::cerr << i << "\n";
+        std::cerr << split_string << "\n";
         
         if (p_camera->IsHardwareTriggered())
         {
