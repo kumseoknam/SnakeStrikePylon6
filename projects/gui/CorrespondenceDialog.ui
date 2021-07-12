@@ -151,8 +151,8 @@
       </property>
       <property name="minimumSize">
        <size>
-        <width>1916</width>
-        <height>1200</height>
+        <width>640</width>
+        <height>480</height>
        </size>
       </property>
       <property name="mouseTracking">
